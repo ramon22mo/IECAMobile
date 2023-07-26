@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675630431300",
+    "firebase_url": "https://ieca-mobile-default-rtdb.firebaseio.com",
+    "project_id": "ieca-mobile",
+    "storage_bucket": "ieca-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675630431300:android:c229c924c36d28131c1011",
+        "android_client_info": {
+          "package_name": "com.ramon.iecamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675630431300-00dski6tcuegnrq8h08i8b56135o2bj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvp_nB3aGcX2IJbsD1kTvv1XEs-jlaKRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675630431300-00dski6tcuegnrq8h08i8b56135o2bj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

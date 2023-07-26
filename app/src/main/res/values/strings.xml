@@ -1,0 +1,31 @@
+<resources>
+  <string name="app_name">IECA Mobile</string>
+  <string name="login">LOGIN IN</string>
+  <string name="login_instructions">Enter your email and password</string>
+  <string name="email">Email</string>
+  <string name="password">Password</string>
+  <string name="confirm_password">Confirm Password</string>
+  <string name="forgot_password">Forgot Password?</string>
+  <string name="login_in">Login In</string>
+  <string name="register">New User? SIGN UP</string>
+  <string name="register_title">REGISTER</string>
+  <string name="register_instructions">Enter your information</string>
+  <string name="register_name">Full name</string>
+  <string name="sign_up">SEND</string>
+  <string name="already_account">Already have an account? LOGIN IN</string>
+  <string name="forgot_password_title">FORGOT PASSWORD</string>
+  <string name="forgot_password_instructions">Enter your email to change your password.</string>
+  <string name="send">SEND</string>
+  <string name="update_password_title">UPDATE PASSWORD</string>
+  <string name="update_password_instructions">Enter your new password.</string>
+  <string name="update">UPDATE</string>
+  <string name="welcome">Hello,</string>
+  <string name="full_name">Full name</string>
+  <string name="welcome_ieca">Welcome to IECA</string>
+  <string name="edit_profile">Edit Profile</string>
+  <string name="explorer">Explorer</string>
+  <string name="course">Course</string>
+  <string name="homework">Homework</string>
+  <string name="exam">Exam</string>
+  <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  tools:context=".CourseActivity">
+
+  <ImageView
+    android:id="@+id/iv_back"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/baseline_keyboard_arrow_left_24"
+    android:clickable="true"/>
+
+  <ImageView
+    android:id="@+id/iv_rules"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/rules_ieca"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">IECA Mobile</string>
+  <string name="login">INGRESAR</string>
+  <string name="login_instructions">Escribe tu correo y contraseña.</string>
+  <string name="email">Correo electrónico</string>
+  <string name="password">Contraseña</string>
+  <string name="confirm_password">Confirmar contraseña</string>
+  <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+  <string name="login_in">Ingresar</string>
+  <string name="register">¿Usuario nuevo? REGISTRATE</string>
+  <string name="register_title">REGISTRATE</string>
+  <string name="register_instructions">Escribe tu información</string>
+  <string name="register_name">Nombre completo</string>
+  <string name="sign_up">ENVIAR</string>
+  <string name="already_account">¿Ya tienes una cuenta? INGRESAR</string>
+  <string name="forgot_password_title">OLVIDASTE TU CONTRASEÑA</string>
+  <string name="forgot_password_instructions">Escribe tu correo electrónico para cambiar tu contraseña.</string>
+  <string name="send">ENVIAR</string>
+  <string name="update_password_title">ACTUALIZAR CONTRASEÑA</string>
+  <string name="update_password_instructions">Escribe tu nueva contraseña.</string>
+  <string name="update">ACTUALIZAR</string>
+  <string name="welcome">Hola,</string>
+  <string name="full_name">Nombre completo</string>
+  <string name="welcome_ieca">Bienvenido a IECA</string>
+  <string name="edit_profile">Editar perfil</string>
+  <string name="explorer">Explorar</string>
+  <string name="course">Curso</string>
+  <string name="homework">Tarea</string>
+  <string name="exam">Examen</string>
+  <string name="logout">Cerrar sesión</string>
+</resources>

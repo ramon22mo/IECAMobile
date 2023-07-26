@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  tools:context=".ExamActivity">
+
+  <ImageView
+    android:id="@+id/iv_back"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/baseline_keyboard_arrow_left_24"
+    android:clickable="true"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/exam"
+    android:textColor="@color/background"
+    android:fontFamily="@font/montserrat_bold"
+    android:textSize="24sp"
+    android:textAlignment="center"/>
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_marginTop="20dp"/>
+
+</LinearLayout>

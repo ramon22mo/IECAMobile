@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".EditProfileActivity">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="20dp"
+    android:background="@color/background">
+
+    <ImageView
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:src="@drawable/baseline_keyboard_arrow_left_24"
+      android:background="@drawable/rounded_full"
+      android:clickable="true"/>
+
+    <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/avatar"
+      android:contentDescription="@string/full_name"
+      android:layout_centerVertical="true"/>
+
+    <TextView
+      android:id="@+id/full_name_profile"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/full_name"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:fontFamily="@font/montserrat_bold"
+      android:layout_toEndOf="@id/imageView"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="10dp"/>
+
+  </RelativeLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_marginTop="-100dp">
+
+    <com.google.android.material.card.MaterialCardView
+      android:layout_width="0dp"
+      android:layout_height="125dp"
+      android:layout_weight="1"
+      app:cardBackgroundColor="@color/background"
+      app:cardElevation="10dp"
+      app:strokeWidth="0dp"
+      android:layout_margin="10dp">
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@drawable/course"
+          android:layout_centerHorizontal="true"/>
+
+        <TextView
+          android:id="@+id/homework_complete"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:fontFamily="@font/montserrat_bold"
+          android:includeFontPadding="false"
+          android:text="5"
+          android:textColor="@color/white"
+          android:textSize="20sp" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Homework complete"
+          android:textSize="14sp"
+          android:textColor="@color/white"
+          android:includeFontPadding="false"
+          android:layout_below="@id/homework_complete"
+          android:fontFamily="@font/montserrat"
+          android:layout_centerInParent="true"/>
+
+      </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+      android:layout_width="0dp"
+      android:layout_height="125dp"
+      android:layout_weight="1"
+      app:cardBackgroundColor="@color/background"
+      app:cardElevation="10dp"
+      app:strokeWidth="0dp"
+      android:layout_margin="10dp">
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@drawable/exam"
+          android:layout_centerHorizontal="true"/>
+
+        <TextView
+          android:id="@+id/examn_complete"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="7"
+          android:textSize="20sp"
+          android:textColor="@color/white"
+          android:includeFontPadding="false"
+          android:fontFamily="@font/montserrat_bold"
+          android:layout_centerInParent="true"/>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Exams complete"
+          android:textSize="14sp"
+          android:textColor="@color/white"
+          android:includeFontPadding="false"
+          android:layout_below="@id/examn_complete"
+          android:fontFamily="@font/montserrat"
+          android:layout_centerInParent="true"/>
+
+      </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/layout_full_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/register_name"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      app:startIconDrawable="@drawable/baseline_person_24"
+      app:boxStrokeColor="@color/background"
+      app:endIconTint="@color/background"
+      app:hintTextColor="@color/background"
+      app:startIconTint="@color/background">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/layout_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/email"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      app:startIconDrawable="@drawable/baseline_email_24"
+      app:boxStrokeColor="@color/background"
+      app:endIconTint="@color/background"
+      app:hintTextColor="@color/background"
+      app:startIconTint="@color/background">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/layout_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/password"
+      app:passwordToggleEnabled="true"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      app:startIconDrawable="@drawable/baseline_lock_24"
+      app:boxStrokeColor="@color/background"
+      app:endIconTint="@color/background"
+      app:hintTextColor="@color/background"
+      app:startIconTint="@color/background">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+      android:id="@+id/update_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/update"
+      android:backgroundTint="@color/background"
+      android:layout_marginTop="20dp"/>
+
+  </LinearLayout>
+
+</LinearLayout>
